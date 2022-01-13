@@ -50,12 +50,13 @@
   transform: translateY(-50%);
 }
 
-.p-topic {
+/*.p-topic {
   display: flex;
   align-items: center;
   justify-content: center;
   position: sticky;
 }
+*/
 
 @media screen and (max-width: 480px) {
   .p {
