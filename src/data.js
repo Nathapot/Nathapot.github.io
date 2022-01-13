@@ -1,3 +1,9 @@
+import cancerTracking from "./img/success_cancer_tracking.png";
+import intern from "./img/success_intern.png";
+import faceRecog from "./img/success_face_recog.png";
+import gpr from "./img/success_gpr_photo.png";
+import activeLoad from "./img/success_active_load.png";
+
 export const products = [
   {
     id: 1,
@@ -6,27 +12,27 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: cancerTracking,
     link: "http://lama.dev",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: intern,
     link: "http://lama.dev",
   },
   {
     id: 4,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: faceRecog,
     link: "http://lama.dev",
   },
   {
     id: 5,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: gpr,
     link: "http://lama.dev",
   },
   {
     id: 6,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: activeLoad,
     link: "http://lama.dev",
   },
 ];
