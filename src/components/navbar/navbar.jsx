@@ -32,7 +32,7 @@ const Navbar = ({ setName, name }) => {
   } else {
     menu = (
       <ul className="navbar-nav me-auto mb-2 mb-md-0">
-        <p className="nav-item nav-name nav-link">{name}</p>
+        <li className="nav-item nav-name nav-link">{name}</li>
         <li className="nav-item">
           <Link className="nav-link" to="/login" onClick={logout}>
             Logout

@@ -2,8 +2,6 @@ import "./intro.css";
 import Me from "../../img/pottoIcon.png";
 
 const Intro = () => {
-
-
   return (
     <div className="i">
       <div className="i-left">
@@ -14,15 +12,16 @@ const Intro = () => {
             <div className="i-title-wrapper">
               <div className="i-title-item">Responsive Websites</div>
               <div className="i-title-item">Web Apps</div>
-              <div className="i-title-item">UI/UX Designer</div>
+              {/* <div className="i-title-item">UI/UX Designer</div> */}
               <div className="i-title-item">Artificial Intelligence</div>
-              <div className="i-title-item">Data Science</div>
+              <div className="i-title-item">Data Sciences</div>
               <div className="i-title-item">DevOps</div>
             </div>
           </div>
           <p className="i-desc">
-            An engineering student pursuing a career as a full-stack developer
-            through self-study
+            A fourth-year engineering student at Faculty of Engineering, King
+            Mongkut's Institute of Technology Ladkrabang. Skillful in several
+            fields such as web development and data sciences.
           </p>
         </div>
       </div>
