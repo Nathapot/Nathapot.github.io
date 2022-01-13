@@ -8,31 +8,31 @@ export const products = [
   {
     id: 1,
     img: "https://www.i-pic.info/i/Nyla97539.png",
-    link: "https://shop.ctmmed.com/",
+    link: "#",
   },
   {
     id: 2,
     img: cancerTracking,
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 3,
     img: intern,
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 4,
     img: faceRecog,
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 5,
     img: gpr,
-    link: "http://lama.dev",
+    link: "#",
   },
   {
     id: 6,
     img: activeLoad,
-    link: "http://lama.dev",
+    link: "#",
   },
 ];

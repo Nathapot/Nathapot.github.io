@@ -41,7 +41,7 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              (+66) 85 055 7253
+              (+66) 085 055 7253
             </div>
             <div className="c-info-item">
               <img src={Email} alt="" className="c-icon" />
