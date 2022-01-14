@@ -39,7 +39,7 @@ const About = (props) => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <div>
-          <p className="a-sub">Hi, I'm Nathapot.</p>
+          <p className="a-sub">Hi, this is Nathapot.</p>
 
           <p className="a-desc">
             I am a person who always remains positive, creative, passionate

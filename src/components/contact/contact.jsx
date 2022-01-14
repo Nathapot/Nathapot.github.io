@@ -83,8 +83,8 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>If you'd like to hire me, </b>
-            please send me an email with information about your project.
+            <b>If you are interested in hiring me, </b>
+            please kindly contact me by email or drop me a message below.
           </p>
           <form ref={formRef} onSubmit={sendEmail}>
             <input

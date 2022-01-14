@@ -10,7 +10,7 @@ export const products = [
     id: 1,
     img: ctmmed,
     link: "#",
-    title: "E-commerce website using Nuxtjs(front-end) and Go(back-end)",
+    title: "E-commerce website using Nuxtjs (front-end) and Go (back-end)",
   },
   {
     id: 2,
