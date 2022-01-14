@@ -2,6 +2,8 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
+import LinkedIn from "../../img/linkedin.png";
+import Github from "../../img/github.png";
 import { useRef, useState, useContext } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
@@ -49,7 +51,33 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img src={Address} alt="" className="c-icon" />
-              194/2 Nonsi Rd. Chongnonsi Yannawa Bangkok 10120
+              194/2, Nonsi Rd, Chongnonsi, Yannawa, Bangkok 10120
+            </div>
+            <div className="c-info-item">
+              <img src={LinkedIn} alt="" className="c-icon" />
+              <a
+                href="https://linkedin.com/in/nathapot"
+                target={"_blank"}
+                style={{
+                  color: darkMode ? "white" : "#212529",
+                }}
+                rel="noreferrer"
+              >
+                https://linkedin.com/in/nathapot
+              </a>
+            </div>
+            <div className="c-info-item c-github">
+              <img src={Github} alt="" className="c-icon" />
+              <a
+                href="https://github.com/Nathapot"
+                target={"_blank"}
+                style={{
+                  color: darkMode ? "white" : "#212529",
+                }}
+                rel="noreferrer"
+              >
+                https://github.com/Nathapot
+              </a>
             </div>
           </div>
         </div>
@@ -104,6 +132,11 @@ const Contact = () => {
               <div className="d-success">Thank you for your information🎉</div>
             )}
           </form>
+          <hr />
+          <p className="c-end">
+            Thanks for your interest, and I look forward to working for you
+            soon!🧑🏻‍💻
+          </p>
         </div>
       </div>
     </div>

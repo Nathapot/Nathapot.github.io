@@ -2,7 +2,7 @@ import "./product.css";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
 
-const Product = ({ img, link }) => {
+const Product = ({ title, img, link }) => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -11,6 +11,7 @@ const Product = ({ img, link }) => {
         <div className="p-circle-r"></div>
         <div className="p-circle-y"></div>
         <div className="p-circle-g"></div>
+        <d className="p-topic">{title}</d>
       </div>
 
       <a

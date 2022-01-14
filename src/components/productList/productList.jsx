@@ -7,11 +7,16 @@ const ProductList = () => {
     <div className="pl">
       <div className="pl-texts">
         <h1 className="pl-title">Projects</h1>
-        <p className="pl-desc">These are my projects</p>
+        <p className="pl-desc">These are my projects.</p>
       </div>
       <div className="pl-list">
         {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
+          <Product
+            key={item.id}
+            img={item.img}
+            title={item.title}
+            link={item.link}
+          />
         ))}
       </div>
     </div>

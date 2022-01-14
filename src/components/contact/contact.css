@@ -1,5 +1,5 @@
 .c {
-  height: 100vh;
+  height: auto;
   position: relative;
 }
 
@@ -23,7 +23,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: left; */
   justify-content: center;
 }
 
@@ -50,8 +50,13 @@
   font-weight: 200;
 }
 
+.c-end {
+  font-weight: 200;
+}
+
 form {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 input {
@@ -81,11 +86,12 @@ button {
 }
 
 .d-success {
-  margin: 10px 0px;
+  margin-top: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 683px) {
   .c {
+    margin-top: 50px;
     height: auto;
   }
   .c-wrapper {
@@ -117,5 +123,9 @@ button {
 
   button {
     margin-top: 10px;
+  }
+
+  .c-end {
+    font-size: 14px;
   }
 }

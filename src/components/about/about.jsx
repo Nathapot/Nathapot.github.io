@@ -1,6 +1,6 @@
 import "./about.css";
 import Me from "../../img/Potto.JPG";
-import Award from "../../img/Project_GPR.jpg";
+import experience from "../../img/experience.png";
 // import React, { useEffect, useState } from "react";
 // import SkeletonArticle from "../skeletons/skeletonArticle";
 // import SkeletonProject from "../skeletons/skeletonProject";
@@ -60,16 +60,16 @@ const About = (props) => {
         )} */}
 
         <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
+          <img src={experience} alt="" className="a-award-img" />
           <div className="a-award-texts">
             <h4 className="a-award-title">Experience</h4>
             {/* <p className="a-award-desc">Desc Desc Desc Desc</p> */}
             <ul>
               <li className="a-award-desc">
-                Data scientist (Intern) At Botnoi Consulting Co.,Ltd.
+                Full Stack Developer (Part-time) At CTM
               </li>
               <li className="a-award-desc">
-                Full Stack Developer (Part-time) At CTM
+                Data scientist (Internship) At Botnoi Consulting Co.,Ltd.
               </li>
             </ul>
           </div>
