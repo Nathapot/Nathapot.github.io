@@ -42,10 +42,13 @@ const About = (props) => {
           <p className="a-sub">Hi, this is Nathapot.</p>
 
           <p className="a-desc">
-            I am a person who always remains positive, creative, passionate
-            about coding, eager to learn new things, fluent in Thai and English,
-            excellent in human relations, resulting in efficient and effective
-            performances and high-quality teamwork.
+            I am a software engineer with a strong enthusiasm for coding,
+            showcasing skills in various domains such as web development and
+            data sciences. My approach is characterized by a positive and
+            creative mindset, a deep passion for coding, and an ongoing
+            eagerness to learn. Proficient in both Thai and English, I excel in
+            human relations, contributing to efficient and effective
+            performances, as well as fostering high-quality teamwork.
           </p>
         </div>
 
@@ -66,10 +69,18 @@ const About = (props) => {
             {/* <p className="a-award-desc">Desc Desc Desc Desc</p> */}
             <ul>
               <li className="a-award-desc">
-                Full Stack Developer (Part-time) At CTM
+                Software Engineer At SCB TechX | Feb 2024 - Present
               </li>
               <li className="a-award-desc">
-                Data scientist (Internship) At Botnoi Consulting Co.,Ltd.
+                Associate Software Engineer At SCB TechX | Sep 2022 - Jan 2024
+              </li>
+              <li className="a-award-desc">
+                Full Stack Developer (Part-time) At Easysale | June 2021 - Aug
+                2021
+              </li>
+              <li className="a-award-desc">
+                Data scientist (Internship) At Botnoi Consulting Co.,Ltd. | June
+                2021 - July 2021
               </li>
             </ul>
           </div>

@@ -13,15 +13,12 @@ const Intro = () => {
               <div className="i-title-item">Responsive Websites</div>
               <div className="i-title-item">Web Apps</div>
               {/* <div className="i-title-item">UI/UX Designer</div> */}
-              <div className="i-title-item">Artificial Intelligence</div>
               <div className="i-title-item">Data Sciences</div>
-              <div className="i-title-item">DevOps</div>
             </div>
           </div>
           <p className="i-desc">
-            A fourth-year engineering student at Faculty of Engineering, King
-            Mongkut's Institute of Technology Ladkrabang. Skillful in several
-            fields such as web development and data sciences.
+            A software engineer skilled in several fields, including web
+            development and data sciences.
           </p>
         </div>
       </div>
